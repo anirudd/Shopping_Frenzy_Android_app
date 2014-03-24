@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/roger1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/roger2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_toRightOf="@+id/roger1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/roger3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/roger2"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="#ffff0000" />
+
+    <TextView
+        android:id="@+id/roger4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/roger3"
+        android:layout_alignBottom="@+id/roger3"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/roger3"
+        android:text="TextView" />
+
+</RelativeLayout>

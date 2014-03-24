@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kero.mama.shopping"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <supports-screens android:xlargeScreens="false"/>
+    <uses-feature android:name="android.hardware.screen.portrait"/>
+    <application
+        android:icon="@drawable/cart"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".ShoppingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity  android:name=".Indivisual"></activity>
+        <activity android:name=".Main_Class"
+            android:screenOrientation="portrait"> 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            </activity>
+            <activity android:name=".PrefenceHandler"/>
+            <activity android:name=".Custom"/>
+            <activity android:name=".Welcome_class" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+                android:screenOrientation="landscape" >
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category  android:name="android.intent.category.LAUNCHER"/>
+                </intent-filter>
+            </activity>
+    </application>
+
+</manifest>

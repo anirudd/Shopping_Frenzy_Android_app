@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name"><u>Shopping Frenzy</u></string>
+    <color name="text_background">#800024ff</color>
+    <color name="text_triangle">#ff0024ff</color>
+    <string-array name="categories">
+        <item>Custom Product Search</item>
+<item>Apparel &amp; Accessories</item>
+<item>Arts &amp; Entertainment</item>
+<item>Baby &amp; Toddler</item>
+<item>Business &amp; Industrial</item>
+<item>Cameras &amp; Optics</item>
+<item>Electronics</item>
+<item>Furniture</item>
+<item>Health &amp; Beauty</item>
+<item>Household Goods</item>
+<item>Luggage &amp; Bags</item>
+<item>Office Supplies</item>
+<item>Software</item>
+<item>Sporting Goods</item>
+<item>Vehicle Accessories</item>
+    </string-array>
+    <string name="delta"><u><i>Select Product Category:</i></u></string>
+    <string-array name="sub_appANDacc">
+        <item >Clothing</item>
+        <item >Clothing Accessories</item>
+        <item >Handbags</item>
+        <item >Jewelry</item>
+        <item >Shoes</item>
+        <item >Wallet &amp; Money Clips</item>
+    </string-array>
+    <string-array name="sub_clothing">
+        <item >Active Clothing</item>
+        <item >Bridal Clothing</item>
+        <item>Baby and Toddler Clothing</item>
+        <item >Dresses</item>
+        <item >Outerwear</item>
+        <item >Pants</item>
+        <item >Shirts &amp; Tops</item>
+        <item >Shorts</item>
+        <item >Skirts</item>
+        <item >Skorts</item>
+        <item >Sleepwear &amp; Loungewear</item>
+        <item >Suits</item>
+        <item >Uniforms</item>
+    </string-array>
+    <string-array name="sub_active_wear">
+        <item >Active Dresses</item>
+        <item >Active Jackets</item>
+        <item >Active Leotards</item>
+        <item >Active Pants</item>
+        <item >Active Shirts</item>
+        <item >Active Shorts</item>
+        <item >Active Skirts</item>
+        <item >Active Tanks</item>
+        <item >Football Pants</item>
+        <item >Soccer Socks</item>
+    </string-array>
+    <string-array name="sub_artsANDent">
+        <item >ArtWork</item>
+        <item >Crafts &amp; Hobbies</item>
+        <item >Musical Instruments</item>
+        <item >Musical Instrument Accessories</item>
+        <item >Party Gifts</item>
+        <item >Party Supplies</item>
+        <item >Visual Effects</item>
+        <item >Trophies &amp; Awards</item>
+        <item >Greeting Cards</item>
+        <item >Disco Balls</item>
+        <item >Fog Machines</item>
+        <item >Visual Effect Lighting</item>
+    </string-array>
+    <string-array name="sub_babyANDtod">
+        <item >Baby &amp; Toddler Gift Sets</item>
+        <item >Baby Bathtubs</item>
+        <item >Baby Toys</item>
+        <item >Baby Strollers</item>
+        <item >Baby Feeding Accessories</item>
+        <item >Baby &amp; Toddler Food</item>
+        <item >Baby Carriers</item>
+    </string-array>
+    <string-array name="sub_bussANDind">
+        <item >Advertising &amp; Marketing</item>
+        <item >Food Service</item>
+        <item >Heavy Machinery</item>
+        <item >Industrial Storage</item>
+        <item >Law Enforcement</item>
+        <item >Medical</item>
+        <item >Retail</item>
+    </string-array>
+    <string-array name="sub_camANDoptics">
+        <item >Camera &amp; Optic Accessories</item>
+        <item >Cameras</item>
+        <item >Optics</item>
+        <item >Photography</item>
+    </string-array>
+    <string-array name="sub_electronics">
+        <item >Audio</item>
+        <item >Circuit Components</item>
+        <item >Communications</item>
+        <item >Computers</item>
+        <item >Electronics Accessories</item>
+        <item >GPS</item>
+        <item >Networking</item>
+        <item >Print, Copy, Scan &amp; Fax</item>
+        <item >Video</item>
+        <item >Video Game Consoles</item>
+    </string-array>
+    <string-array name="sub_furniture">
+        <item >Bedroom Furniture</item>
+        <item >Benches</item>
+        <item >Carts</item>
+        <item >Chairs</item>
+        <item >Desks &amp; Tables</item>
+        <item >Buffets &amp; Sideboards</item>
+        <item >China Cabinets</item>
+        <item >Sofas</item>
+        <item >Wine Coolers</item>
+        <item >Wine Racks</item>
+    </string-array>
+    <string-array name="sub_helthANDbeut">
+        <item >Hearing Aids</item>
+        <item >Cosmetics</item>
+        <item >Deodorant &amp; Anti-Perspirant</item>
+        <item >Hair Care</item>
+        <item >Eye Glass Frames</item>
+        <item >Shaving &amp; Grooming</item>
+    </string-array>
+    <string-array name="sub_homeNgard">
+        <item >Emergency &amp; Safety</item>
+        <item >Home Security</item>
+        <item >Household Appliances</item>
+        <item >Kitchen &amp; Dining</item>
+        <item >Lighting</item>
+        <item >Linens</item>
+        <item >Rain Umbrellas</item>
+    </string-array>
+    <string-array name="sub_luggANDbags">
+        <item >Backpacks</item>
+        <item >Business Bags</item>
+        <item >Duffel Bags</item>
+        <item >Messenger Bags</item>
+        <item >Suitcases</item>
+        <item >Briefcases</item>
+        <item >Laptop Bags &amp; Cases</item>
+        <item >Tablet Bags &amp; Cases</item>
+    </string-array>
+    <string-array name="sub_offsupplies">
+        <item >Calculators</item>
+        <item >Translators</item>
+        <item >Office Shredders</item>
+        <item >Postage Meters</item>
+        <item >Transcribers</item>
+        <item >Typewriters</item>
+        <item >Easel Pads</item>
+        <item >Laser Pointers</item>
+        <item >Wireless Presenters</item>
+        <item >Easels</item>
+        <item >Electronic Dictionaries</item>
+    </string-array>
+    <string-array name="everything_else">
+        <item >Impulse Sealers</item>
+        <item>Name Plates</item>
+        <item>Dictation Systems</item>
+        <item>Label Makers</item>
+        <item>Chalkboards</item>
+        <item>Display Boards</item>
+        <item>Bulletin Boards</item>
+        <item>Foam Boards</item>
+        <item>Mounting Boards</item>
+		<item>Poster Boards</item>
+		<item>Document Cameras</item>
+		<item>Whiteboards</item>
+		<item>Lecterns</item>
+		<item >Hang Gliders</item>
+		<item >Parachutes</item>
+		<item >Dancing Ballet Bars</item>
+		<item >Bungee Jumping</item>
+		<item >Jumping Stilts</item>
+		<item >Pogo Sticks</item>
+		<item >Trampolines</item>
+		<item >Paddle Tennis</item>
+		<item >Pickleball</item>
+		<item >Ski Boots</item>
+		<item >Skis</item>
+		<item >Ski Bindings</item>
+		<item >Ski Bags</item>
+		<item >Snowshoes</item>
+		<item >Snowboards</item>
+		<item >Toboggans</item>
+		<item >Ski &amp; Snowboard Goggle Lenses</item>
+		<item >Ski &amp; Snowboard Goggles</item>
+		<item >Ski &amp; Snowboard Helmets</item>
+		<item >Ski Poles</item>
+		<item >Snowboard Boots</item>
+		<item >Snowboard Bags</item>
+		<item >Car Audio Receivers</item>
+		<item >Car Equalizers &amp; Crossovers</item>
+		<item >Car Speakerphones</item>
+		<item >Car Subwoofers</item>
+		<item >Cassette Adapters</item>
+		<item >Tire Pressure Sensors &amp; Gauges</item>
+		<item >Car Alarms</item>
+		<item >Dance Dresses</item>
+		<item >Dance Pants</item>
+		<item >Dance Skirts</item>
+		<item >Dance Tops</item>
+		<item >Ghillie Suits</item>
+		<item >Hunting &amp; Tactical Pants</item>
+		<item >Hunting &amp; Tactical Vests</item>
+		<item >Motorcycle Suits</item>
+		<item >Bicycle Bibs</item>
+		<item >Bicycle Jerseys</item>
+		<item >Long Johns</item>
+		<item >Paintball Clothing</item>
+		<item >Sauna Suits</item>
+		<item >Sweatshirts</item>
+		<item >Boxing Shorts</item>
+		<item >Bicycle Shorts</item>
+		<item >Masks</item>
+		<item >Wigs</item>
+		<item >Brooches</item>
+		<item >Lapels</item>
+		<item >Charms</item>
+		<item >Watch Bands</item>
+		<item >Bowling Shoes</item>
+		<item >Rugby Boots</item>
+		<item >Running Shoes</item>
+		<item >Skateboarding Shoes</item>
+		<item >Musical Instrument Stands</item>
+		<item >Woodwind Cork Grease</item>
+		<item >Woodwind Polishing Cloths</item>
+		<item >Woodwind Reed Cases</item>
+		<item >Beer Pong Tables</item>
+		<item >Birthday Invitations</item>
+		<item >Wedding Invitations</item>
+		<item >Place Cards</item>
+		<item >Wedding Response Cards</item>
+		<item >Plastic Food Baskets</item>
+		<item >Potentiometers</item>
+		<item >Semiconductors</item>
+		<item >Intercoms</item>
+		<item >CD/DVD Duplicators</item>
+		<item >Hard Drive Duplicators</item>
+		<item >USB Drive Duplicators</item>
+		<item >XBox 360 Hard Drives</item>
+		<item >IDE Cables</item>
+		<item >SAS Cables</item>
+		<item >SCSI Cables</item>
+		<item >KVM Cables</item>
+		<item >FireWire Cables</item>
+		<item >XBox 360 Network Cards</item>
+		<item >Wireless Bridges</item>
+		<item >Wireless Routers</item>
+		<item >Kneeling Chairs</item>
+		<item >Bar Stools</item>
+    </string-array>
+    <string-array name="sub_software">
+        <item >Antivirus &amp; Security Software</item>
+        <item >Educational Software</item>
+        <item >Financial, Tax &amp; Accounting Software</item>
+        <item >Multimedia &amp; Design Software</item>
+        <item >Network Software</item>
+        <item >Office Application Software</item>
+        <item >Operating Systems</item>
+        <item >GPS Map Data &amp; Software</item>
+        <item >Video Games</item>
+    </string-array>
+    <string-array name="sub_sportingGoods">
+        <item >Combat Sports</item>
+        <item >Exercise &amp; Fitness</item>
+        <item >Indoor Games</item>
+        <item >Outdoor Recreation</item>
+        <item >Racquet Sports</item>
+        <item >Team Sports</item>
+        <item >Water Sports</item>
+    </string-array>
+    <string-array name="sub_carAudANDVid">
+        <item >Car Amplifiers</item>
+        <item >Car Satellite Radios</item>
+        <item >Car CD Changers</item>
+        <item >Car Cassette Players</item>
+        <item >Car Speakers</item>
+        <item >Car DVD Players</item>
+    </string-array>
+    <string-array name="sub_motor_protective">
+        <item >Motorcycle Helmets</item>
+        <item >Motorcycle Gloves</item>
+        <item >Motorcycle Goggles</item>
+    </string-array>
+    <string-array name="sub_motor_lock">
+        <item >Child Safety Locks</item>
+        <item >Immobilizers</item>
+        <item >Locking Hubs</item>
+        <item >Power Door Locks</item>
+        <item >Remote Keyless Systems</item>
+        <item >Steering Wheel Locks</item>
+    </string-array>
+    <string-array name="sub_bridal_clothing">
+        <item >Bridal Dresses</item>
+        <item >Bridal Party Dresses</item>
+    </string-array>
+    <string-array name="sub_dresses">
+        <item >Day Dresses</item>
+        <item >Cocktail Dresses</item>
+        <item >Gowns</item>
+        <item >Little Black Dresses</item>
+    </string-array>
+    <string-array name="sub_outerwear">
+        <item >Blazers</item>
+        <item >Boleros</item>
+        <item >Capes &amp; Ponchos</item>
+        <item >Casual Jackets</item>
+        <item >Rain Suits</item>
+        <item >Raincoats</item>
+        <item >Puffers</item>
+    </string-array>
+    <string-array name="sub_pants">
+        <item >Leggings</item>
+        <item >Jeans</item>
+        <item >Dress Pants</item>
+        <item >Casual Pants</item>
+    </string-array>
+    <string-array name="sub_shirtsANDtops">
+        <item >Tank Tops</item>
+        <item >Polo Shirts</item>
+        <item >Formal Shirts</item>
+        <item >Sports Fan Jerseys</item>
+        <item >Sweaters	</item>
+        <item >T-Shirts</item>
+    </string-array>
+    <string-array name="sub_sleepANDlong">
+        <item >Loungewear</item>
+        <item >Nightgowns</item>
+        <item >Pajamas</item>
+        <item >Robes</item>
+    </string-array>
+    <string-array name="sub_suits">
+        <item >Pant Suits</item>
+        <item >Skirt Suits</item>
+        <item >Suit Separates</item>
+        <item >Tuxedos</item>
+    </string-array>
+    <string-array name="sub_uniforms">
+        <item >Security Uniforms</item>
+        <item >White Coats</item>
+        <item >Flight Suits</item>
+        <item >Chef\'s Jackets</item>
+        <item >Sports Uniforms</item>
+        <item >Officiating Uniforms</item>
+    </string-array>
+    <string-array name="sub_sportsUniforms">
+        <item >Baseball Uniforms</item>
+        <item >Basketball Uniforms</item>
+        <item >Cheerleading Uniforms</item>
+        <item >Cricket Uniforms</item>
+        <item >Football Uniforms</item>
+        <item >Hockey Uniforms</item>
+        <item >Softball Uniforms</item>
+        <item >Wrestling Uniforms</item>
+    </string-array>
+    <string-array name="sub_clothing_acc">
+        <item >Belts</item>
+        <item >Bridal Veils</item>
+        <item >Sunglasses</item>
+        <item >Suspenders</item>
+        <item >Veils</item>
+        <item >Wristbands</item>
+    </string-array>
+    <string-array name="sub_handbags">
+        <item >Clutches &amp; Special Occasion Bags</item>
+        <item >Cross-Body Handbags</item>
+        <item >Hobo Handbags</item>
+        <item >Satchels</item>
+        <item >Shoulder Bags</item>
+        <item >Tote Handbags</item>
+        <item >Wristlets</item>
+    </string-array>
+    <string-array name="sub_jwelery">
+        <item >Anklets</item>
+        <item >Body Jewelry</item>
+        <item >Bracelets</item>
+        <item >Pendants</item>
+        <item >Cufflinks</item>
+        <item >Earrings</item>
+        <item >Necklaces</item>
+        <item >Diamonds</item>
+        <item >Rings</item>
+        <item >Watches</item>
+    </string-array>
+    <string-array name="sub_shoes">
+        <item >Athletic Shoes</item>
+        <item >Motorcycle Boots</item>
+        <item >Bridal Shoes</item>
+        <item >Clogs Shoes</item>
+        <item >Espadrilles</item>
+        <item >Flats Shoes</item>
+        <item >Loafers</item>
+        <item >Climbing Shoes</item>
+        <item >Pumps Shoes</item>
+        <item >Sandals</item>
+        <item >Slippers</item>
+        <item >Sneakers</item>
+    </string-array>
+    <string-array name="sub_athl_shoes">
+        <item >Ballet &amp; Dance Shoes</item>
+        <item >Basketball Shoes</item>
+        <item >Bicycle Shoes</item>
+        <item >Walking Shoes</item>
+        <item >Football Cleats</item>
+        <item >Cheerleading Shoes</item>
+        <item >Weightlifting Shoes</item>
+        <item >Wrestling Shoes</item>
+        <item >Tennis Shoes</item>
+        <item >Golf Shoes</item>
+        <item >Volleyball Shoes</item>
+        <item >Baseball Cleats</item>
+        <item >Track Spikes</item>
+    </string-array>
+    <string-array name="sub_artwork">
+        <item >Drawings</item>
+        <item >Mixed Media Art</item>
+        <item >Paintings</item>
+        <item >Stock Photographs</item>
+        <item >Posters &amp; Reproductions</item>
+        <item >Sculptures &amp; Statues</item>
+    </string-array>
+    <string-array name="sub_crafts_hobbies">
+        <item >Blank Books &amp; Journals</item>
+        <item >Canvas &amp; Boards</item>
+        <item >Drawing &amp; Painting Kits</item>
+        <item >Beer Brewing</item>
+        <item >Beads</item>
+        <item >Leather Crafts</item>
+        <item >Mosaics</item>
+        <item >Fabric</item>
+        <item >Quilting</item>
+        <item >Weaving Looms</item>
+    </string-array>
+    <string-array name="sub_musical_instruments">
+        <item >Accordions &amp; Concertinas</item>
+        <item >Bagpipes</item>
+        <item >Brass</item>
+        <item >Keyboard Synthesizers</item>
+        <item >Percussion</item>
+        <item >Pianos</item>
+        <item >String Instruments</item>
+        <item >Woodwinds</item>
+    </string-array>
+    <string-array name="sub_brass">
+        <item >Cornets</item>
+        <item >Euphoniums</item>
+        <item >Flugel Horns</item>
+        <item >French Horns</item>
+        <item >Mellophones</item>
+        <item >Sousaphones</item>
+        <item >Trombones</item>
+        <item >Trumpets</item>
+    </string-array>
+    <string-array name="sub_percussion">
+        <item >Bass Drums</item>
+        <item >Cymbals</item>
+        <item >Drum Kits</item>
+        <item >Electronic Drums</item>
+        <item >Hi-Hats</item>
+        <item >Snare Drums</item>
+        <item >Tambourines</item>
+        <item >Tom-Toms</item>
+    </string-array>
+    <string-array name="sub_string_instruments">
+        <item >Cellos</item>
+        <item >Acoustic Guitars</item>
+        <item >Bass Guitars</item>
+        <item >Electric Guitars</item>
+        <item >Harps</item>
+        <item >Upright Basses</item>
+        <item >Violas</item>
+        <item >Violins</item>
+    </string-array>
+    <string-array name="sub_woodwinds">
+        <item >Bassoons</item>
+        <item >Clarinets</item>
+        <item >Flutes</item>
+        <item >Harmonicas</item>
+        <item >Jew Harps</item>
+        <item >Melodicas</item>
+        <item >Oboes</item>
+        <item >Recorders</item>
+        <item >Saxophones</item>
+    </string-array>
+    <string-array name="sub_musical_instruments_acc">
+        <item >Brass Instrument Accessories</item>
+        <item >Electronic Tuners</item>
+        <item >Music Stands</item>
+        <item >Musical Instrument Amplifiers</item>
+        <item >Musical Keyboard Stands</item>
+        <item >Sustain Pedals</item>
+        <item >Drumming Thrones</item>
+        <item >Percussion Mallets</item>
+        <item >Drum Sticks</item>
+        <item >Piano Benches</item>
+        <item >String Instrument Accessories</item>
+        <item >Woodwind Instrument Accessories</item>
+    </string-array>
+    <string-array name="sub_brass_ins_acc">
+        <item >Brass Instruments Cleaning Kits</item>
+        <item >Brass Instrument Guards</item>
+        <item >Brass Instruments Cases &amp; Gigbags</item>
+        <item >Brass Instruments Mouthpieces</item>
+        <item >Brass Instruments Mutes</item>
+        <item >Trombone Lyres</item>
+        <item >Trumpet &amp; Cornet Lyres</item>
+    </string-array>
+    <string-array name="sub_string_ins_acc">
+        <item >String Instruments Cleaning Kits</item>
+        <item >Cello Accessories</item>
+        <item >Guitar Accessories</item>
+        <item >Harp Cases</item>
+        <item >Harp Strings</item>
+        <item >Upright Bass Accessories</item>
+        <item >Viola Accessories</item>
+        <item >Violin Accessories</item>
+    </string-array>
+    <string-array name="sub_cello_acc">
+        <item >Cello Bows</item>
+        <item >Cello Cases</item>
+        <item >Cello Mutes</item>
+        <item >Cello Strings</item>
+    </string-array>
+    <string-array name="sub_guitar_acc">
+        <item >Acoustic Guitar Pickups</item>
+        <item >Capos</item>
+        <item >Electric Guitar Pickups</item>
+        <item >Guitar Bridge Pins</item>
+        <item >Guitar Cases</item>
+        <item >Guitar Humidifiers</item>
+        <item >Guitar Stands</item>
+        <item >Guitar Tuning Machines</item>
+        <item >Guitar Strings</item>
+        <item >Guitar Slides</item>
+    </string-array>
+    <string-array name="sub_viola_acc">
+        <item >Viola Bows</item>
+        <item >Viola Cases</item>
+        <item >Viola Mutes</item>
+        <item >Viola Strings</item>
+    </string-array>
+    <string-array name="sub_violin_acc">
+        <item >Violin Chinrests</item>
+        <item >Violin Shoulder Rests</item>
+        <item >Violin Bows</item>
+        <item >Violin Bridges</item>
+        <item >Violin Cases</item>
+        <item >Violin Mutes</item>
+        <item >Violin Strings</item>
+        <item >Violin Tuning Pegs</item>
+    </string-array>
+    <string-array name="sub_woodwind_acc">
+        <item >Bassoon Accessories</item>
+        <item >Clarinet Accessories</item>
+        <item >Flute Accessories</item>
+        <item >Harmonica Cases</item>
+        <item >Harmonica Holders</item>
+        <item >Oboe Accessories</item>
+        <item >Saxophone Accessories</item>
+        <item >Woodwind Cleaning Kits</item>
+    </string-array>
+    <string-array name="sub_advertising_markt">
+        <item >Brochures</item>
+        <item >Trade Show Counters</item>
+        <item >Trade Show Displays</item>
+    </string-array>
+    <string-array name="sub_food_service">
+        <item >Cutlery Items</item>
+        <item >Food Service Carts</item>
+        <item >Plate &amp; Dish Warmers</item>
+        <item >Vending Machines</item>
+    </string-array>
+    <string-array name="sub_heavy_mch">
+        <item >Chippers</item>
+        <item >Fork Lifts</item>
+    </string-array>
+    <string-array name="sub_inds_storage">
+        <item >Industrial Cabinets</item>
+        <item >Industrial Shelving</item>
+        <item >Shipping Containers</item>
+    </string-array>
+    <string-array name="sub_law_enf">
+        <item >Batons</item>
+        <item >Ankle Cuffs</item>
+        <item >Handcuffs</item>
+        <item >Leg Cuffs</item>
+        <item >Metal Detectors</item>
+    </string-array>
+    <string-array name="sub_medical">
+        <item >Hospital Gowns</item>
+        <item >Automated External Defibrillators</item>
+        <item >Otoscopes &amp; Ophthalmoscopes</item>
+        <item >Stethoscopes</item>
+        <item >Surgical Tables</item>
+        <item >Medical Gloves</item>
+        <item >Medical Masks</item>
+        <item >Scrub Caps</item>
+        <item >Scrubs</item>
+        <item >Surgical Gowns</item>
+    </string-array>
+    <string-array name="sub_retail">
+        <item >Clothing Display Racks</item>
+        <item >Mannequins</item>
+        <item >Money Handling</item>
+        <item >Pricing Guns</item>
+        <item >Retail Display Cases</item>
+    </string-array>
+    <string-array name="sub_money_handling">
+        <item >Cash Drawers</item>
+        <item >Credit Card Readers</item>
+        <item >Signature Capture Pads</item>
+        <item >Coin &amp; Bill Counters</item>
+        <item >Money Changers</item>
+    </string-array>
+    <string-array name="sub_camera_optic_acc">
+        <item >Camera &amp; Optic Lens Accessories</item>
+        <item >Camera &amp; Optic Lenses</item>
+        <item >Camera Accessories</item>
+        <item >Tripods &amp; Monopods</item>
+        <item >Video Camera Accessories</item>
+    </string-array>
+    <string-array name="sub_camera_optic_lens_acc">
+        <item >Camera Lens &amp; Filter Adapters</item>
+        <item >Camera Lens Bags</item>
+        <item >Camera Lens Caps</item>
+        <item >Camera Lens Filters</item>
+        <item >Camera Lens Hoods</item>
+        <item >Teleconverters &amp; Extenders</item>
+    </string-array>
+    <string-array name="sub_camera_optic_lenses">
+        <item >Camera Lenses</item>
+        <item >Surveillance Camera Lenses</item>
+        <item >Video Camera Lenses</item>
+    </string-array>
+    <string-array name="sub_cam_acc">
+        <item >Camera Bags</item>
+        <item >Camera Film</item>
+        <item >Camera Flashes</item>
+        <item >Camera Remote Controls</item>
+        <item >Camera Straps</item>
+        <item >Flash Brackets</item>
+        <item >Underwater Camera Housings</item>
+    </string-array>
+    <string-array name="sub_video_acc">
+        <item >Video Camera Bags</item>
+        <item >Video Camera Lights</item>
+    </string-array>
+    <string-array name="sub_cameras">
+        <item >Digital Point &amp; Shoot Cameras</item>
+        <item >Digital SLRs</item>
+        <item >Mirrorless System Digital Cameras</item>
+        <item >Film Cameras</item>
+        <item >Instant Cameras</item>
+        <item >Surveillance Cameras</item>
+        <item >Trail Cameras</item>
+        <item >Video Cameras</item>
+        <item >Webcams</item>
+    </string-array>
+    <string-array name="sub_optics">
+        <item >Binoculars</item>
+        <item >Monoculars</item>
+        <item >Rangefinders</item>
+        <item >Spotting Scopes</item>
+        <item >Telescopes</item>
+        <item >Weapon Scopes</item>
+    </string-array>
+    <string-array name="sub_photography">
+        <item >Darkroom Equipment</item>
+        <item >Lighting &amp; Studio Equipment</item>
+    </string-array>
+    <string-array name="sub_darkroom">
+        <item >Copystands</item>
+        <item >Analyzers &amp; Exposure Meters</item>
+        <item >Darkroom Easels</item>
+        <item >Darkroom Timers</item>
+        <item >Photographic Enlargers</item>
+        <item >Photographic Toners</item>
+        <item >Photographic Paper</item>
+        <item >Safelights</item>
+    </string-array>
+    <string-array name="sub_lighting_studio">
+        <item >Flash Diffusers</item>
+        <item >Flash Reflectors</item>
+        <item >Light Meters</item>
+        <item >Softboxes</item>
+        <item >Studio Lights &amp; Flashes</item>
+    </string-array>
+    <string-array name="sub_audio">
+        <item >Audio Components</item>
+        <item >Audio Players &amp; Recorders</item>
+    </string-array>
+    <string-array name="sub_audio_components">
+        <item >Audio &amp; Video Receivers</item>
+        <item >Headphone Amplifiers</item>
+        <item >Bluetooth Transmitters</item>
+        <item >FM Transmitters</item>
+        <item >Headphones</item>
+        <item >Microphones</item>
+        <item >Computer Speakers</item>
+        <item >Studio Monitors</item>
+        <item >Subwoofers</item>
+    </string-array>
+    <string-array name="sub_audio_player_recorder">
+        <item >Multitrack Recorders</item>
+        <item >Voice Recorders</item>
+        <item >CD Players</item>
+        <item >Cassette Players</item>
+        <item >Home Theater Systems</item>
+        <item >MP3 Players</item>
+        <item >MiniDisc Players</item>
+        <item >Radios</item>
+    </string-array>
+    <string-array name="sub_circuit_comp">
+        <item >Breadboards</item>
+        <item >Development Boards</item>
+        <item >Laser Diodes</item>
+        <item >Capacitors</item>
+        <item >Inductors</item>
+        <item >Resistors</item>
+        <item >Diodes</item>
+        <item >Microcontrollers</item>
+        <item >Operational Amplifiers</item>
+        <item >Transistors</item>
+        <item >Voltage Regulator ICs</item>
+    </string-array>
+    <string-array name="sub_communications">
+        <item >Headsets</item>
+        <item >Pagers</item>
+        <item >Cordless Phones</item>
+        <item >Corded Phones</item>
+        <item >Conference Phones</item>
+        <item >Mobile Phones</item>
+        <item >Smartphones</item>
+        <item >Watch Phones</item>
+        <item >Answering Machines</item>
+    </string-array>
+    <string-array name="sub_computers">
+        <item >Computer Accessories</item>
+        <item >Computer Components</item>
+        <item >Desktop Computers</item>
+        <item >E-Book Readers</item>
+        <item >Personal Digital Assistant</item>
+        <item >Laptops</item>
+        <item >Tablet Computers</item>
+        <item >Data Collection Terminals</item>
+    </string-array>
+    <string-array name="sub_computer_acc">
+        <item >Computer Risers</item>
+        <item >Laptop Docking Stations</item>
+        <item >Mouse Pads</item>
+        <item >Stylus Pens</item>
+        <item >Tablet Computer Stands</item>
+    </string-array>
+    <string-array name="sub_computer_comp">
+        <item >Audio Cards</item>
+        <item >Computer System Cooling</item>
+        <item >Input Output Cards</item>
+        <item >Input Devices</item>
+        <item >Laptop Parts</item>
+        <item >Motherboards</item>
+        <item >Storage Devices</item>
+        <item >TV Tuner Cards</item>
+        <item >USB &amp; FireWire Hubs</item>
+        <item >Video Cards</item>
+    </string-array>
+    <string-array name="sub_input_output_cards">
+        <item >FireWire Cards</item>
+        <item >Parallel Cards</item>
+        <item >Serial Cards</item>
+        <item >USB Cards</item>
+    </string-array>
+    <string-array name="sub_input_devices">
+        <item >Barcode Scanners</item>
+        <item >Computer Keyboards</item>
+        <item >Digital Note Taking Pens</item>
+        <item >Fingerprint Readers</item>
+        <item >Game Controllers</item>
+        <item >Graphics Tablets</item>
+        <item >Memory Card Readers</item>
+        <item >Computer Mouse</item>
+        <item >Smart Card Readers</item>
+    </string-array>
+    <string-array name="sub_laptop_parts">
+        <item >Laptop Replacement Keyboards</item>
+        <item >Laptop Replacement Screens</item>
+        <item >Laptop Shells</item>
+    </string-array>
+    <string-array name="sub_storage_device">
+        <item >Disk Arrays</item>
+        <item >Floppy Drives</item>
+        <item >Hard Drives</item>
+        <item >CD Drives</item>
+        <item >DVD Drivers</item>
+        <item >MO Drives</item>
+        <item >Tape Drives</item>
+        <item >USB Flash Drives</item>
+    </string-array>
+    <string-array name="sub_elec_acc">
+        <item >Antennas</item>
+        <item >Cables</item>
+        <item >Keyboard Protectors</item>
+        <item >Screen Protectors</item>
+        <item >Memory</item>
+        <item >Power</item>
+    </string-array>
+    <string-array name="sub_antenas">
+        <item >Communication Antennas</item>
+        <item >Radio Antennas</item>
+        <item >TV Antennas</item>
+    </string-array>
+    <string-array name="sub_cables">
+        <item >DVI Cables</item>
+        <item >HDMI Cables</item>
+        <item >SCART Cables</item>
+        <item >Speaker Cables</item>
+        <item >USB Cables</item>
+        <item >iOS Cables</item>
+        <item >Ethernet Cables</item>
+        <item >Serial Cables</item>
+        <item >SAS Cables</item>
+        <item >SATA Cables</item>
+    </string-array>
+    <string-array name="sub_memory">
+        <item >Cache Memory</item>
+        <item >Flash Memory Cards</item>
+        <item >RAM</item>
+        <item >ROM</item>
+    </string-array>
+    <string-array name="sub_power">
+        <item >Batteries</item>
+        <item >Chargers</item>
+        <item >Laptop Power Adapters</item>
+        <item >Power Converters</item>
+        <item >Power Inverters</item>
+        <item >Surge Protection Devices</item>
+        <item >Voltage Converters</item>
+    </string-array>
+    <string-array name="sub_gps">
+        <item >Automotive GPS</item>
+        <item >Aviation GPS</item>
+        <item >Sport GPS</item>
+    </string-array>
+    <string-array name="sub_networking">
+        <item >Network Bridges</item>
+        <item >Network Hubs</item>
+        <item >Network Switches</item>
+        <item >Network Routers</item>
+        <item >Modems</item>
+        <item >Network Cards</item>
+        <item >Concentrators &amp; Multiplexers</item>
+    </string-array>
+    <string-array name="sub_print">
+        <item >Fax Machines</item>
+        <item >Copiers</item>
+        <item >Dot Matrix Printers</item>
+        <item >Inkjet Printers</item>
+        <item >Laser Printers</item>
+        <item >Photo Printers</item>
+        <item >Scanners</item>
+    </string-array>
+    <string-array name="sub_video_pp">
+        <item >Computer Monitors</item>
+        <item >Projectors</item>
+        <item >Televisions</item>
+        <item >Video Players &amp; Recorders</item>
+    </string-array>
+    <string-array name="sub_projectors">
+        <item >Multimedia Projectors</item>
+        <item >Overhead Projectors</item>
+        <item >Slide Projectors</item>
+    </string-array>
+    <string-array name="sub_television">
+        <item >CRT Televisions</item>
+        <item >Flat Panel Televisions</item>
+        <item >Home Theater System</item>
+        <item >Projection Televisions</item>
+    </string-array>
+    <string-array name="sub_video_player_acc">
+        <item >DVD Players</item>
+        <item >DVD Recorders</item>
+        <item >Digital Video Recorders</item>
+        <item >Home Media Players</item>
+        <item >VCRs</item>
+    </string-array>
+    <string-array name="sub_vehicle_acc">
+        <item >Car Audio</item>
+        <item >Vehicle GPS Mounts</item>
+        <item >Motor Vehicle Locking Systems</item>
+        <item >Vehicle Tracking Systems</item>
+        <item >Speedometers</item>
+        <item >Motorcycle Protective Gear</item>
+    </string-array>
+    <string-array name="sub_bedroom_furniture">
+        <item >Armoires</item>
+        <item >Bed Frames</item>
+        <item >Beds</item>
+        <item >Headboards &amp; Footboards</item>
+        <item >Mattresses</item>
+        <item >Nightstands</item>
+        <item >Futons</item>
+    </string-array>
+    <string-array name="sub_carts">
+        <item >Audio &amp; Video Carts</item>
+        <item >Kitchen Carts</item>
+    </string-array>
+    <string-array name="sub_benches">
+        <item >Outdoor Benches</item>
+        <item >Storage Benches</item>
+        <item >Vanity Benches</item>
+    </string-array>
+    <string-array name="sub_chairs">
+        <item >Chaises</item>
+        <item >Club Chairs</item>
+        <item >Kitchen &amp; Dining Room Chairs</item>
+        <item >Living Room Chairs</item>
+        <item >Office Chairs</item>
+        <item >Beach &amp; Deck Chairs</item>
+        <item >Sunloungers</item>
+    </string-array>
+    <string-array name="sub_desk_tables">
+        <item >Art Tables</item>
+        <item >Conference Room Tables</item>
+        <item >Desks</item>
+        <item >Kitchen &amp; Dining Room Tables</item>
+        <item >Sofa Tables</item>
+        <item >Poker &amp; Game Tables</item>
+    </string-array>
+    <string-array name="sub_sofas">
+        <item >Loveseats</item>
+        <item >Outdoor Sofas</item>
+        <item >Sectional Sofas</item>
+        <item >Sofabeds</item>
+    </string-array>
+    <string-array name="sub_cosmetics">
+        <item >Eye Liner</item>
+        <item >Eye Shadow</item>
+        <item >Powders</item>
+        <item >Eyebrow Pencils</item>
+        <item >Lip Gloss</item>
+        <item >Lipstick</item>
+        <item >Perfume &amp; Cologne</item>
+    </string-array>
+    <string-array name="sub_hair_care">
+        <item >Hair Coloring</item>
+        <item >Hair Dryers</item>
+        <item >Hair Irons</item>
+        <item >Hair Loss Treatments</item>
+        <item >Shampoo &amp; Conditioner</item>
+        <item >Styling Gel</item>
+        <item >Hair Spray &amp; Mousse</item>
+    </string-array>
+    <string-array name="sub_shaving">
+        <item >Aftershave</item>
+        <item >Electric Razors</item>
+        <item >Shaving Razors</item>
+        <item >Shaving Brushes</item>
+        <item >Shaving Cream</item>
+        <item >Shaving Kits</item>
+        <item >Waxing Kits</item>
+        <item >Depilatories</item>
+    </string-array>
+    <string-array name="sub_emergency_safety">
+        <item >Earthquake Alarms</item>
+        <item >Carbon Monoxide Detectors</item>
+        <item >Fire Alarms</item>
+        <item >Fire Extinguishers</item>
+        <item >Fire Sprinklers</item>
+        <item >Smoke Detectors</item>
+    </string-array>
+    <string-array name="sub_home_security">
+        <item >Home Alarm Systems</item>
+        <item >Motion Sensors</item>
+        <item >Safes</item>
+        <item >Security Lights</item>
+        <item >Security Monitors &amp; Recorders</item>
+        <item >Security System Sensors</item>
+        <item >Tracking Devices</item>
+    </string-array>
+    <string-array name="sub_house_hold_app">
+        <item >Carpet &amp; Steam Cleaners</item>
+        <item >Climate Control</item>
+        <item >Washing Machines</item>
+        <item >Garage Door Openers</item>
+        <item >Garage Parking Sensors</item>
+        <item >Laundry Appliances</item>
+        <item >Sewing Machines</item>
+        <item >Vacuums</item>
+        <item >Water Heaters</item>
+    </string-array>
+    <string-array name="sub_climate_control">
+        <item >Air Conditioners</item>
+        <item >Air Purifiers</item>
+        <item >Dehumidities</item>
+        <item >Ceiling Fans</item>
+        <item >Desk &amp; Pedestal Fans</item>
+        <item >Ventilation Fans</item>
+        <item >Room Heaters</item>
+    </string-array>
+    <string-array name="sub_laundry_app">
+        <item >Garment Steamers</item>
+        <item >Irons</item>
+        <item >Laundry Dryers</item>
+        <item >Laundry Washers</item>
+        <item >Steam Presses</item>
+        <item >Laundry Combo Units</item>
+    </string-array>
+    <string-array name="sub_kitchen_dining">
+        <item >Wine Aerators</item>
+        <item >Microwave Ovens</item>
+        <item >Pressure Cookers</item>
+        <item >Saucepans</item>
+        <item >Saute Pans</item>
+        <item >Frying Pans</item>
+        <item >Kitchen Appliances</item>
+        <item >Dinnerware Sets</item>
+    </string-array>
+    <string-array name="sub_kitchen_app">
+        <item >Coffee Makers &amp; Espresso Machines</item>
+        <item >Dishwashers</item>
+        <item >Electric Kettles</item>
+        <item >Food Warmers</item>
+        <item >Hot Plates</item>
+        <item >Ice Cream Makers</item>
+        <item >Juicers</item>
+        <item >Pasta Makers</item>
+        <item >Refrigerators</item>
+        <item >Soda Makers</item>
+        <item >Toasters &amp; Grills</item>
+        <item >Tea Makers</item>
+        <item >Water Coolers</item>
+        <item >Water Filters</item>
+    </string-array>
+    <string-array name="sub_lighting">
+        <item >Flood Lights</item>
+        <item >Table Lamps</item>
+        <item >Chandeliers</item>
+        <item >Wall Sconces</item>
+        <item >Picture Lights</item>
+        <item >Walkway Lighting</item>
+    </string-array>
+    <string-array name="sub_linens">
+        <item >Bed Sheets</item>
+        <item >Blankets</item>
+        <item >Pillows</item>
+        <item >Table Linens</item>
+        <item >Towels</item>
+    </string-array>
+    <string-array name="sub_multimedia_software">
+        <item >Animation Editing Software</item>
+        <item >Graphic Design Software</item>
+        <item >Music Composition Software</item>
+        <item >Sound Editing Software</item>
+        <item >Video Editing Software</item>
+        <item >Web Design Software</item>
+    </string-array>
+    <string-array name="sub_combat_sports">
+        <item >Boxing Gloves &amp; Mitts</item>
+        <item >Punching Bags</item>
+        <item >Fencing Weapons</item>
+        <item >Martial Arts Weapons</item>
+    </string-array>
+    <string-array name="sub_exercise_fitness">
+        <item >Exercise Bikes</item>
+        <item >Treadmills</item>
+        <item >Stopwatches</item>
+        <item >Weightlifting Gloves</item>
+        <item >Weightlifting Machines</item>
+    </string-array>
+    <string-array name="sub_indoor_sports">
+        <item >Air Hockey Tables</item>
+        <item >Billiard Balls</item>
+        <item >Billiard Cues &amp; Bridges</item>
+        <item >Billiard Tables</item>
+        <item >Foosball Tables</item>
+        <item >Ping Pong Tables</item>
+        <item >Dartboards</item>
+        <item >Ping Pong Paddles</item>
+    </string-array>
+    <string-array name="sub_outdoor">
+        <item >Archery</item>
+        <item >Camping Tents</item>
+        <item >Cycling</item>
+        <item >Golf</item>
+        <item >Shooting Games</item>
+        <item >Skateboards</item>
+        <item >Inline Skates</item>
+        <item >Quad Skates</item>
+        <item >Track &amp; Field</item>
+    </string-array>
+    <string-array name="sub_archery">
+        <item >Archery Armguards</item>
+        <item >Archery Targets</item>
+        <item >Arrows</item>
+        <item >Compound Bows</item>
+        <item >Crossbows</item>
+        <item >Long Bows</item>
+        <item >Quivers</item>
+    </string-array>
+    <string-array name="sub_cycling">
+        <item >Bicycle Computers</item>
+        <item >Electric Bicycles</item>
+        <item >Hybrid Bicycles</item>
+        <item >Mountain Bicycles</item>
+        <item >Road Bicycles</item>
+        <item >Triathlon Bicycles</item>
+        <item >Tricycles</item>
+    </string-array>
+    <string-array name="sub_golf">
+        <item >Golf Bags</item>
+        <item >Golf Balls</item>
+        <item >Golf Clubs</item>
+        <item >Golf Gloves</item>
+    </string-array>
+    <string-array name="sub_shooting_games">
+        <item >Airsoft Guns</item>
+        <item >Airsoft Pellets</item>
+        <item >Clay Pigeon Throwers</item>
+        <item >Paintball CO2 Tanks</item>
+        <item >Paintball Grenades</item>
+        <item >Paintball Guns</item>
+    </string-array>
+    <string-array name="sub_track_field">
+        <item >Discuses</item>
+        <item >High Jump Bars</item>
+        <item >Hurdles</item>
+        <item >Javelins</item>
+        <item >Relay Batons</item>
+        <item >Shot Puts</item>
+        <item >Starter Pistols</item>
+        <item >Vaulting Poles</item>
+        <item >Throwing Hammers</item>
+    </string-array>
+    <string-array name="sub_racket">
+        <item >Badminton</item>
+        <item >Squash</item>
+        <item >Tennis</item>
+    </string-array>
+    <string-array name="sub_badminton">
+        <item >Badminton Nets</item>
+        <item >Badminton Rackets</item>
+        <item >Shuttlecocks</item>
+    </string-array>
+    <string-array name="sub_squash">
+        <item >Squash Balls</item>
+        <item >Squash Rackets</item>
+        <item >Squash Protective Gear</item>
+        <item >Squash Shoes</item>
+    </string-array>
+    <string-array name="sub_tennis">
+        <item >Tennis Ball Hoppers</item>
+        <item >Tennis Ball Launchers</item>
+        <item >Tennis Balls</item>
+        <item >Tennis Nets</item>
+        <item >Tennis Rackets</item>
+    </string-array>
+    <string-array name="sub_team_sports">
+        <item >Baseball</item>
+        <item >Basketball</item>
+        <item >Volleyball</item>
+        <item >Cricket</item>
+        <item >Hockey</item>
+        <item >Rugby</item>
+        <item >Soccer</item>
+    </string-array>
+    <string-array name="sub_baseball">
+        <item >Baseball Bats</item>
+        <item >Baseball Gloves &amp; Mitts</item>
+        <item >Baseball Batting Helmets</item>
+        <item >Baseballs</item>
+        <item >Baseball Batting Gloves</item>
+        <item >Baseball Pitching Machines</item>
+    </string-array>
+    <string-array name="sub_basket_ball">
+        <item >Basketball Backboards</item>
+        <item >Basketball Nets</item>
+        <item >Basketball Poles</item>
+        <item >Basketball Hoops</item>
+        <item >Basketballs</item>
+    </string-array>
+    <string-array name="sub_volleyball">
+        <item >Beach Volleyball Balls</item>
+        <item >Beach Volleyball Nets</item>
+        <item >Indoor Volleyball Balls</item>
+        <item >Indoor Volleyball Nets</item>
+        <item >Volleyball Bags</item>
+    </string-array>
+    <string-array name="sub_cricket">
+        <item >Cricket Balls</item>
+        <item >Cricket Bats</item>
+        <item >Cricket Gloves</item>
+        <item >Cricket Helmets</item>
+    </string-array>
+    <string-array name="sub_hockey">
+        <item >Hockey Goals</item>
+        <item >Hockey Gloves</item>
+        <item >Hockey Helmets</item>
+        <item >Hockey Pants</item>
+        <item >Hockey Pucks</item>
+        <item >Hockey Sticks</item>
+        <item >Ice Hockey Skates</item>
+        <item >Roller Hockey Skates</item>
+    </string-array>
+    <string-array name="sub_rugby">
+        <item >Rugby Balls</item>
+        <item >Rugby Gloves</item>
+        <item >Rugby Helmets</item>
+        <item >Rugby Posts</item>
+    </string-array>
+    <string-array name="sub_soccer">
+        <item >Soccer Balls</item>
+        <item >Soccer Goalie Gloves</item>
+        <item >Soccer Goals &amp; Nets</item>
+        <item >Soccer Shin Guards</item>
+        <item >Soccer Club Jersey</item>
+        <item >Football Helmets</item>
+        <item >Soccer Studs</item>
+    </string-array>
+    <string-array name="sub_water_sports">
+        <item >Canoes</item>
+        <item >Rafts</item>
+        <item >Rowing Boats</item>
+        <item >Rowing Oars</item>
+        <item >Life Jackets</item>
+        <item >Surfing</item>
+        <item >Swimming</item>
+        <item >Water Polo</item>
+        <item >Whitewater Rafts</item>
+    </string-array>
+    <string-array name="sub_surfing">
+        <item >Rash Guards</item>
+        <item >Surfboard Fins</item>
+        <item >Surfboards</item>
+        <item >Surfing Tail Pads</item>
+    </string-array>
+    <string-array name="sub_swimming">
+        <item >Baby Floats</item>
+        <item >Kickboards</item>
+        <item >Pull Buoys</item>
+        <item >Swim Caps</item>
+        <item >Swim Gloves</item>
+        <item >Swim Goggles</item>
+        <item >Swimming Machines</item>
+        <item >Training Fins</item>
+    </string-array>
+    <string-array name="sub_water_polo">
+        <item >Water Polo Balls</item>
+        <item >Water Polo Caps</item>
+        <item >Water Polo Goals</item>
+    </string-array>
+    <string-array name="countries">
+        <item >Australia</item>
+        <item >Brazil</item>
+        <item >China</item>
+        <item >Czech Republic</item>
+        <item >France</item>
+        <item >Germany</item>
+        <item >Italy</item>
+        <item >Japan</item>
+        <item >Netherlands</item>
+        <item >Spain</item>
+        <item >Switzerland</item>
+        <item >United Kingdom</item>
+        <item >United States</item>
+    </string-array>
+    <string-array name="country_codes">
+        <item >AU</item>
+        <item >BR</item>
+        <item >CN</item>
+        <item >CZ</item>
+        <item >FR</item>
+        <item >DE</item>
+        <item >IT</item>
+        <item >JP</item>
+        <item >NL</item>
+        <item >ES</item>
+        <item >CH</item>
+        <item >GB</item>
+        <item >US</item>
+    </string-array>
+    <string-array name="results">
+        <item >10</item>
+        <item >15</item>
+        <item >20</item>
+        <item >25</item>
+    </string-array>
+    <string-array name="language">
+        <item >Current Country local language</item>
+        <item >US English</item>
+        <item >Britain English</item>
+    </string-array>
+    <string-array name="language_code">
+        <item >0</item>
+        <item >en-US</item>
+        <item >en-GB</item>
+    </string-array>
+    <string name="custom_search"><i><u>Custom Product Search:</u></i></string>
+    <style name="styler">
+        <item name="android:background">@drawable/sel</item>
+        </style>
+        
+    
+    <style name="anims" parent="@android:Animation" >
+        <item name="android:windowEnterAnimation">@anim/appear</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item> 
+    	</style>
+    
+    
+<style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@style/anims</item></style>
+        
+        
+   
+</resources>

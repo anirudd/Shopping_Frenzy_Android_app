@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Preferences:"
+    android:persistent="true" >
+    <ListPreference android:title="Country"
+        android:summary="Select your country"
+        android:entries="@array/countries"
+        android:entryValues="@array/country_codes"
+        android:defaultValue="US"
+        android:key="country"/>
+    <PreferenceCategory android:title="Search Result Preferences">
+        <ListPreference android:title="Results Per Page:"
+            android:key="rpp"
+            android:entries="@array/results"
+            android:entryValues="@array/results"
+            android:defaultValue="25"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Internet Preferences:">
+        <PreferenceScreen
+            android:title="Network Settings"
+            android:summary="Manage Network and Internet Settings">
+        <intent android:action="android.settings.WIRELESS_SETTINGS"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

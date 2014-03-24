@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/more_results" android:title="Get More Results" android:icon="@drawable/more" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/filter_by" android:title="Filter Results By" android:icon="@drawable/filter" android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/price" android:title="Price"/>
+            <item android:id="@+id/brand" android:title="Brand"/>
+        </menu>
+    </item>
+    
+
+</menu>

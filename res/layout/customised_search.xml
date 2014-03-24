@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:shadowColor="#ffff"
+        android:shadowDy="-5"
+        android:shadowRadius="30"
+        android:text="@string/custom_search"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fdfc" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="16dp"
+        android:autoText="true"
+        android:completionThreshold="3"
+        android:dropDownSelector="#f00f"
+        android:height="35dp"
+        android:hint="Enter search query"
+        android:padding="3dp"
+        android:textSize="26sp" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/autoCompleteTextView1"
+        android:layout_below="@+id/autoCompleteTextView1"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:onClick="handler"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt1"
+        android:layout_alignRight="@+id/bt1"
+        android:layout_below="@+id/bt1"
+        android:layout_marginTop="17dp"
+        android:onClick="handler"
+        android:text="Reset" />
+
+</RelativeLayout>
